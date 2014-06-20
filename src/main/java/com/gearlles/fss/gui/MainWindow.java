@@ -3,6 +3,7 @@ package com.gearlles.fss.gui;
 import java.awt.BorderLayout;
 import java.awt.Canvas;
 import java.awt.EventQueue;
+import java.awt.SystemColor;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -13,8 +14,6 @@ import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.border.TitledBorder;
 
 import net.miginfocom.swing.MigLayout;
-import java.awt.Color;
-import java.awt.SystemColor;
 
 public class MainWindow {
 
