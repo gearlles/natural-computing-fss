@@ -292,7 +292,8 @@ public class FSSSearch {
 		return res;
 	}
 	
-	private double calculateFitnessa(double[] inputs) {
+	@SuppressWarnings("unused")
+	private double calculateFitnessSphere(double[] inputs) {
 		double res = 0;
 		for (int i = 0; i < inputs.length; i++)
 			res += Math.pow(inputs[i], 2);
@@ -340,7 +341,8 @@ public class FSSSearch {
 				false // Configure chart to generate URLs?
 				);
 		try {
-			ChartUtilities.saveChartAsJPEG(new File("C:\\Users\\Gearlles\\Desktop\\chart_fss.jpg"), chart, 500, 300);
+		    	// FIXME
+			ChartUtilities.saveChartAsJPEG(new File("./chart_fss.jpg"), chart, 500, 300);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
