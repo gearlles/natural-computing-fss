@@ -1,15 +1,15 @@
 package com.gearlles.fss.core;
 
 public class Fish {
-	
+
 	private double[] position;
 	private double weight;
 	private double deltaFitness;
 	private double[] deltaPosition;
-	
+
 	public Fish() {
 	}
-	
+
 	public double[] getPosition() {
 		return position;
 	}
@@ -41,7 +41,7 @@ public class Fish {
 	public void setDeltaPosition(double[] deltaPosition) {
 		this.deltaPosition = deltaPosition;
 	}
-	
+
 	@Override
 	public String toString() {
 		return String.format("Position: (%f, %f). Weight = %f", position[0], position[1], weight);
